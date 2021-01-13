@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui-tdline-colorful",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Text decoration with colorful for wsui.",
   "homepage": "https://github.com/afeiship/wsui-tdline-colorful",
   "author": {
@@ -30,5 +30,13 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "wsui",
+    "tdline",
+    "color",
+    "colorful",
+    "anchor",
+    "link"
+  ]
 }
