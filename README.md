@@ -17,6 +17,13 @@ npm i @jswork/wsui-tdline-colorful
 @import '~@jswork/wsui-tdline-colorful/dist/index.scss';
 // use css
 @import '~@jswork/wsui-tdline-colorful/dist/style.css';
+
+
+.tdline1 {
+  @include wsui-tdline-colorful($in-color1: #ff7a18, $in-color2: #af002d, $in-color3: #319197);
+}
+
+// <a href="tdn tdline1">道可道，非常道；名可名，非常名。</a>
 ```
 
 ## license
