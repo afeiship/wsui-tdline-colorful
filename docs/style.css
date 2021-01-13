@@ -1,0 +1,25 @@
+/*!
+ * name: @jswork/wsui-tdline-colorful
+ * description: Text decoration with colorful for wsui.
+ * homepage: https://github.com/afeiship/wsui-tdline-colorful
+ * version: 1.0.0
+ * date: 2021-01-13 23:03:29
+ * license: MIT
+ */
+/*wsui-tdline-colorful Start*/
+/*wsui-tdline-colorful End*/
+.tdline1 {
+  position: relative;
+  display: inline-block;
+}
+
+.tdline1:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+}

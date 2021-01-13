@@ -1,0 +1,19 @@
+/*wsui-tdline-colorful Start*/
+// @thanks to: https://css-tricks.com/everything-you-need-to-know-about-date-in-javascript/
+
+@mixin wsui-tdline-colorful($in-color1: #ff7a18, $in-color2: #af002d, $in-color3: #319197) {
+  //Your code goes here.
+  position: relative;
+  display: inline-block;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(130deg, $in-color1, $in-color2 41.07%, $in-color3 76.05%);
+  }
+}
+/*wsui-tdline-colorful End*/
